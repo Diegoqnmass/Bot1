@@ -260,7 +260,7 @@ message: {
 "productImageCount": 999
 },                          
 "businessOwnerJid": `0@s.whatsapp.net`
-}}}, caption: `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
+}}}, caption: `Hola👋🏻, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases de maravilla en este grupo*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
 } catch {
 samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
 }
@@ -434,7 +434,7 @@ samu330.on('chat-update', async(sam) => {
 	
 	mess = {
 			wait: '⌛ 𝐄𝐍 𝐏𝐑𝐎𝐂𝐄𝐒𝐎 ⌛',
-			success: '✔️ 𝙎𝙐𝙎𝙎𝙀𝙎 ✔️',
+			success: '✔️ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀 ✔️',
 			nsfw: `𝗟𝗼 𝘀𝗶𝗲𝗻𝘁𝗼 𝗽𝗲𝗿𝗼 𝗻𝗼 𝗽𝘂𝗲𝗱𝗼 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝘀𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼, 𝗲𝘀𝘁𝗲 𝗴𝗿𝘂𝗽𝗼 𝗻𝗼 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 +𝟭𝟴\n*PARA ACTIVAR LOS COMANDOS +18, USA:* ${prefix}+18 1`, 
 			ferr: 'Intentalo de nuevo mas tarde',
 			error: {
@@ -443,12 +443,12 @@ samu330.on('chat-update', async(sam) => {
 			},
 			only: {
     			group: '[❗] ¡Este comando solo se puede usar en grupos! ❌',
-    			benned: '⚠ *USTED ES UN USUARIO BANEADO, ESO QUIERE DECIR QUE NO PUEDE USAR EL BOT* ⚠',
+    			benned: '⚠ *HAZ SIDO BANEADO, POR PENDEJO, QUE SIGNIFICA QUE NO PODRAS USAR EL BOT HASTA SER DESBANEADO* ⚠',
     			ownerG: '[❗] ¡Este comando solo puede ser utilizado por el creador del grupo! ❌',
     			ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌\nOsea, Samu: wa.me/+529984907794, Habla con el para que pueda cambiar el numero del owner en este bot',
     			admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
     			Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
-    			usrReg: `Usuario no *Registrado*\n_Para registrarte usa el comando_: *${prefix}reg*`
+    			usrReg: `Aun no te has *Registrado*\n_Para registrarte usa el comando_: *${prefix}reg*`
   			}
 			}
 
@@ -1350,7 +1350,7 @@ funcionara para llamar al mensaje que te ayudara a obtener el codigo de verifica
 
 const menu9 = `*${pushname}*
 
-_Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${botNumber}_
+_Estos comandos solo pueden ser utilizados en grupos, y solo los puede usar ${botNumber}_
 
 🔥 ${prefix}crash
 🔥 ${prefix}crash3
@@ -1417,7 +1417,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
                 const packname1001 = `${aaa}`          
 		const author1001 = args.join(' ')
                 exif.create(packname1001, author1001, `stickwm_${sender}`)          
-		reply('*⌛EN PROCESO*')
+		reply('*Estoy Creando Tu Sticker, se paciente⌛*')
                 await ffmpeg(`${media22}`)
 		.inputFormat(media22.split('.')[4])
 		.on('start', function (cmd) {
