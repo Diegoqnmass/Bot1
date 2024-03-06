@@ -262,13 +262,13 @@ message: {
 "businessOwnerJid": `0@s.whatsapp.net`
 }}}, caption: `Hola👋🏻, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases de maravilla en este grupo*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
 } catch {
-samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
+samu330.sendMessage(mdata.id, `Hola👋🏻, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases de maravilla en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
 }
 //leave
 }  else if (anu.action == 'remove') {
 num = anu.participants[0]
 teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue, ni llorar es bueno:)_
-_*Ojala y le baya bien, y mas despues..... que lo atropelle un tren!!🚉🤣*_
+_*Ojala y le vaya bien, y mas despues..... que lo atropelle un tren!!🚉🤣*_
 *No se awiten gente, esten seguros que nadie lo extrañara:D*`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
